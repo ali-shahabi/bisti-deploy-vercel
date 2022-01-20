@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "IranSansBold";
+  src: url("../public/fonts/IRANSansWeb_Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IranSansLight";
+  src: url("../public/fonts/IRANSansWeb_Light.woff") format("woff");
+  font-style: normal;
+  font-weight: lighter;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IranSansFaNumLight";
+  src: url("../public/fonts/IRANSansWebFaNum.woff") format("woff");
+  font-style: normal;
+  font-weight: lighter;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IranSansFaNumBold";
+  src: url("../public/fonts/IRANSansWebFaNumBold.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: "IranSansFaNumLight" !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "IranSansFaNumLight" !important;
+}
+.image:focus {
+  transform: scale(5);
+}
+.ant-table-wrapper.ant-table-wrapper-rtl .ant-table-pagination-left {
+  -moz-box-pack: end;
+  justify-content: flex-end;
+  padding-left: 1rem;
+}
+.ant-layout {
+  display: -moz-box;
+  display: flex;
+  -moz-box-flex: 1;
+  flex: auto;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-direction: column;
+  min-height: 0;
+  background: #ffffff !important;
+}
+.ant-image-preview-operations {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  -moz-font-feature-settings: "tnum", "tnum";
+  font-feature-settings: "tnum", "tnum";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: -moz-box;
+  display: flex;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: reverse;
+  flex-direction: row-reverse;
+  -moz-box-align: center;
+  align-items: center;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.85);
+  list-style: none;
+  background: rgb(0, 0, 0) !important;
+  pointer-events: auto;
+}
+.ant-image-preview-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  background-color: rgb(0 0 0 / 88%) !important;
+}
+.ant-image-preview-operations-icon {
+  font-size: 38px !important;
+}
+.ant-tooltip-inner a {
+  color: #fff !important;
+}
+.ant-upload-list-rtl .ant-upload-list-item-name {
+  padding-right: 22px;
+  padding-left: 0;
+  font-family: "IranSansLight" !important;
+  direction: ltr !important;
+  text-align: right;
+}
+#login_mobile {
+  font-family: "IranSansLight" !important;
+}
+.ant-input-password {
+  input {
+    font-family: "IranSansLight" !important;
+  }
+}
+.recharts-responsive-container * {
+  font-family: "IranSansLight" !important;
+  font-weight: bolder;
+  font-size: 16px;
+}
